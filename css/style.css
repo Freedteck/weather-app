@@ -30,7 +30,7 @@ h2 {
   flex-direction: column;
   justify-content: flex-start;
   background-color: blueviolet;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .location {
@@ -44,7 +44,7 @@ h2 {
   border-radius: 20px;
   margin: 0 auto;
   width: 80%;
-  flex: 0.5;
+  flex: 0.7;
   display: flex;
   gap: 20px;
   justify-content: space-between;
@@ -110,5 +110,22 @@ button {
   .left,
   .right {
     min-width: 100%;
+  }
+
+  .left h2, .right h2, .left p {
+    font-size: 1rem;
+  }
+
+  .right p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 20px;
+  }
+  .section {
+    width: 100%;
   }
 }
