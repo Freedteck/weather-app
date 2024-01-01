@@ -72,6 +72,11 @@ h2 {
   font-weight: 700;
 }
 
+.left div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 .left p {
   font-size: 1.2rem;
   text-align: center;
